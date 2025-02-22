@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Gestion des Ventes - Application Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Description
+L'application mobile **Gestion des Ventes** permet aux vendeurs de gérer leurs ventes, suivre les commandes, générer des bons de livraison et des factures, ainsi que surveiller leur stock en temps réel.
 
-## Get started
+## Technologies utilisées
+- **React Native** - Framework principal
+- **Redux / Context API** - Gestion d'état
+- **React Navigation** - Gestion de la navigation
+- **Axios** - Communication avec l'API Django
+- **Firebase** - Authentification et notifications push (optionnel)
 
-1. Install dependencies
+## Fonctionnalités
+- 📦 Gestion des produits et du stock
+- 🛒 Création et suivi des commandes
+- 📄 Génération de factures et bons de livraison
+- 🔔 Notifications en temps réel
+- 👤 Gestion des clients et vendeurs
+- 📊 Tableau de bord des ventes
 
-   ```bash
-   npm install
-   ```
+## Installation
 
-2. Start the app
+### Prérequis
+- Node.js et npm/yarn installés
+- Expo CLI installé 
+- Accès à l'API Django (backend)
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
